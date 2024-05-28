@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   ft_printf_pointer.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/27 22:08:45 by hurabe            #+#    #+#             */
-/*   Updated: 2024/05/28 21:49:30 by hurabe           ###   ########.fr       */
+/*   Created: 2024/05/28 21:17:12 by hurabe            #+#    #+#             */
+/*   Updated: 2024/05/28 21:58:07 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printf(const	char *input, ...)
+int	ft_printf_pointer(void *ptr)
 {
-	
+	return ;
 }

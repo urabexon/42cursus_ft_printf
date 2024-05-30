@@ -6,7 +6,7 @@
 #    By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/27 21:27:34 by hurabe            #+#    #+#              #
-#    Updated: 2024/05/28 21:13:01 by hurabe           ###   ########.fr        #
+#    Updated: 2024/05/30 18:58:17 by hurabe           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,8 +14,9 @@ NAME	= libftprintf.a
 CC		= cc
 FLAGS	= -Wall -Werror -Wextra
 LIBFT	= ./libft/libft.a
-SRCS	= ft_printf.c ft_putchar.c ft_putstr.c \
-		  ft_putpointer.c ft_putnbr.c ft_putnbr_unsigned.c ft_puthex.c
+SRCS	= ft_printf.c ft_printf_char.c ft_printf_str.c \
+		  ft_printf_pointer.c ft_printf_nbr.c \
+		  ft_printf_nbr_unsigned.c ft_printf_hex.c
 OBJS	= ${SRCS:.c=.o}
 
 %.o:%.c

@@ -6,13 +6,13 @@
 /*   By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 22:08:45 by hurabe            #+#    #+#             */
-/*   Updated: 2024/05/29 18:26:52 by hurabe           ###   ########.fr       */
+/*   Updated: 2024/05/30 18:56:01 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+// #include "ft_printf.h"
 
-int	ft_printf(const	char *format, ...)
-{
-	
-}
+// int	ft_printf(const	char *format, ...)
+// {
+// 	return ;
+// }

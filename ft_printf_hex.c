@@ -6,13 +6,13 @@
 /*   By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/28 21:17:04 by hurabe            #+#    #+#             */
-/*   Updated: 2024/05/28 21:57:51 by hurabe           ###   ########.fr       */
+/*   Updated: 2024/05/30 18:56:18 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+// #include "ft_printf.h"
 
-int	ft_printf_hex(unsigned int n, int uppercase)
-{
-	return ;
-}
+// int	ft_printf_hex(unsigned int n, int uppercase)
+// {
+// 	return ;
+// }

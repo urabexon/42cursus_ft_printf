@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 20:48:42 by hurabe            #+#    #+#             */
-/*   Updated: 2024/05/28 21:50:55 by hurabe           ###   ########.fr       */
+/*   Updated: 2024/06/02 19:57:22 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,10 @@
 # include <stdint.h>
 # include "libft/libft.h"
 
+//hex
+# define HEX_UPPER	"0123456789ABCDEF"
+# define HEX_LOWER	"0123456789abcdef"
+
 //prottype
 int	ft_printf(const	char *format, ...);
 int	ft_printf_char(char c); //%c
@@ -25,6 +29,6 @@ int	ft_printf_str(char *str); //%s
 int	ft_printf_pointer(void *ptr); //%p
 int	ft_printf_nbr(int n); //%d,%i
 int	ft_printf_nbr_unsigned(unsigned int n); //%u
-int	ft_printf_hex(unsigned int n, int uppercase); //%x,%X
+int	ft_printf_hex(unsigned int n, const char format); //%x,%X
 
 #endif

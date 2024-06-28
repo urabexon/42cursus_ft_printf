@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 22:08:45 by hurabe            #+#    #+#             */
-/*   Updated: 2024/06/06 20:01:25 by hurabe           ###   ########.fr       */
+/*   Updated: 2024/06/28 14:52:37 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,7 @@ int	ft_printf_format(const char format, va_list args)
 	else if (format == 'x' || format == 'X')
 		print_char += ft_printf_hex(va_arg(args, unsigned int), format);
 	else if (format == '%')
-		print_char == ft_printf_percent();
-	if (print_char < 0)
-		return (-1);
+		print_char += ft_putstr_count("%");
 	return (print_char);
 }
 
@@ -42,6 +40,8 @@ int	ft_printf(const	char *format, ...)
 	size_t	count;
 
 	count = 0;
+	if (!format)
+		return (-1);
 	va_start(args, format);
 	while (*format)
 	{
@@ -52,6 +52,6 @@ int	ft_printf(const	char *format, ...)
 		if (*format)
 			format++;
 	}
-	va_end (args);
+	va_end(args);
 	return (count);
 }

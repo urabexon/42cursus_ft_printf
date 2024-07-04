@@ -6,7 +6,6 @@
 
 ### Supported settings.
 * Precision and field width.
-* Flags ("-", "0", "#").
 * Some undefined processing (see main.c)
 * Format ("%d", "%i", "%c", "%s", "%u", "%o", "%p", "%x", "%X", "%") 
 
